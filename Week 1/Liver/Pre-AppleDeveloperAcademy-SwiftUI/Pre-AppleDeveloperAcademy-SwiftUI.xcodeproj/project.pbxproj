@@ -19,6 +19,7 @@
 		F349E5F12B1F86DB00DC5FB0 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5F02B1F86DB00DC5FB0 /* HStackView.swift */; };
 		F349E5F52B1F87D900DC5FB0 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5F42B1F87D900DC5FB0 /* VStackView.swift */; };
 		F349E5F92B1F889E00DC5FB0 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5F82B1F889E00DC5FB0 /* ZStackView.swift */; };
+		F349E5FB2B1F890E00DC5FB0 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5FA2B1F890E00DC5FB0 /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		F349E5F02B1F86DB00DC5FB0 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 		F349E5F42B1F87D900DC5FB0 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 		F349E5F82B1F889E00DC5FB0 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
+		F349E5FA2B1F890E00DC5FB0 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				F349E5F02B1F86DB00DC5FB0 /* HStackView.swift */,
 				F349E5F42B1F87D900DC5FB0 /* VStackView.swift */,
 				F349E5F82B1F889E00DC5FB0 /* ZStackView.swift */,
+				F349E5FA2B1F890E00DC5FB0 /* ImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F349E5FB2B1F890E00DC5FB0 /* ImageView.swift in Sources */,
 				F349E5F52B1F87D900DC5FB0 /* VStackView.swift in Sources */,
 				F349E5F92B1F889E00DC5FB0 /* ZStackView.swift in Sources */,
 				F349E5BE2B1F35DC00DC5FB0 /* ContentView.swift in Sources */,
