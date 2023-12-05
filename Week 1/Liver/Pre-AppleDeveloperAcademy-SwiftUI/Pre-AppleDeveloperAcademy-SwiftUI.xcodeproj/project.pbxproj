@@ -16,6 +16,7 @@
 		F349E5D92B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5D82B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITestsLaunchTests.swift */; };
 		F349E5ED2B1F822100DC5FB0 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5EC2B1F822100DC5FB0 /* ButtonView.swift */; };
 		F349E5EF2B1F830800DC5FB0 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5EE2B1F830800DC5FB0 /* TextView.swift */; };
+		F349E5F12B1F86DB00DC5FB0 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5F02B1F86DB00DC5FB0 /* HStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		F349E5D82B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pre_AppleDeveloperAcademy_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F349E5EC2B1F822100DC5FB0 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F349E5EE2B1F830800DC5FB0 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		F349E5F02B1F86DB00DC5FB0 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				F349E5BD2B1F35DC00DC5FB0 /* ContentView.swift */,
 				F349E5EC2B1F822100DC5FB0 /* ButtonView.swift */,
 				F349E5EE2B1F830800DC5FB0 /* TextView.swift */,
+				F349E5F02B1F86DB00DC5FB0 /* HStackView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				F349E5BE2B1F35DC00DC5FB0 /* ContentView.swift in Sources */,
 				F349E5EF2B1F830800DC5FB0 /* TextView.swift in Sources */,
 				F349E5BC2B1F35DC00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIApp.swift in Sources */,
+				F349E5F12B1F86DB00DC5FB0 /* HStackView.swift in Sources */,
 				F349E5ED2B1F822100DC5FB0 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
