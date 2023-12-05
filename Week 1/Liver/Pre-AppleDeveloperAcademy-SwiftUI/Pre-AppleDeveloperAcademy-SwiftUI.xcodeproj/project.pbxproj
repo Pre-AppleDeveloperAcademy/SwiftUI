@@ -17,6 +17,7 @@
 		F349E5ED2B1F822100DC5FB0 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5EC2B1F822100DC5FB0 /* ButtonView.swift */; };
 		F349E5EF2B1F830800DC5FB0 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5EE2B1F830800DC5FB0 /* TextView.swift */; };
 		F349E5F12B1F86DB00DC5FB0 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5F02B1F86DB00DC5FB0 /* HStackView.swift */; };
+		F349E5F52B1F87D900DC5FB0 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5F42B1F87D900DC5FB0 /* VStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		F349E5EC2B1F822100DC5FB0 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F349E5EE2B1F830800DC5FB0 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		F349E5F02B1F86DB00DC5FB0 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
+		F349E5F42B1F87D900DC5FB0 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				F349E5EC2B1F822100DC5FB0 /* ButtonView.swift */,
 				F349E5EE2B1F830800DC5FB0 /* TextView.swift */,
 				F349E5F02B1F86DB00DC5FB0 /* HStackView.swift */,
+				F349E5F42B1F87D900DC5FB0 /* VStackView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F349E5F52B1F87D900DC5FB0 /* VStackView.swift in Sources */,
 				F349E5BE2B1F35DC00DC5FB0 /* ContentView.swift in Sources */,
 				F349E5EF2B1F830800DC5FB0 /* TextView.swift in Sources */,
 				F349E5BC2B1F35DC00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIApp.swift in Sources */,
