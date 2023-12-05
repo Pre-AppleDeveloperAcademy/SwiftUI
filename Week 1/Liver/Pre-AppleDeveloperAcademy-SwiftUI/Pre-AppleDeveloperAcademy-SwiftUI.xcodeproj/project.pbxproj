@@ -14,6 +14,7 @@
 		F349E5CD2B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5CC2B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUITests.swift */; };
 		F349E5D72B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5D62B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITests.swift */; };
 		F349E5D92B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5D82B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITestsLaunchTests.swift */; };
+		F349E5ED2B1F822100DC5FB0 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5EC2B1F822100DC5FB0 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F349E5D22B1F35DD00DC5FB0 /* Pre-AppleDeveloperAcademy-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pre-AppleDeveloperAcademy-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F349E5D62B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pre_AppleDeveloperAcademy_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		F349E5D82B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pre_AppleDeveloperAcademy_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F349E5EC2B1F822100DC5FB0 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +96,11 @@
 		F349E5BA2B1F35DC00DC5FB0 /* Pre-AppleDeveloperAcademy-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				F349E5BB2B1F35DC00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIApp.swift */,
-				F349E5BD2B1F35DC00DC5FB0 /* ContentView.swift */,
-				F349E5BF2B1F35DD00DC5FB0 /* Assets.xcassets */,
+				F349E5EB2B1F81DF00DC5FB0 /* App */,
+				F349E5EA2B1F81B800DC5FB0 /* Resources */,
+				F349E5E92B1F818E00DC5FB0 /* View */,
+				F349E5E82B1F818800DC5FB0 /* ViewModel */,
+				F349E5E72B1F818500DC5FB0 /* Model */,
 				F349E5C12B1F35DD00DC5FB0 /* Preview Content */,
 			);
 			path = "Pre-AppleDeveloperAcademy-SwiftUI";
@@ -125,6 +129,45 @@
 				F349E5D82B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = "Pre-AppleDeveloperAcademy-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		F349E5E72B1F818500DC5FB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F349E5E82B1F818800DC5FB0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F349E5E92B1F818E00DC5FB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F349E5BD2B1F35DC00DC5FB0 /* ContentView.swift */,
+				F349E5EC2B1F822100DC5FB0 /* ButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F349E5EA2B1F81B800DC5FB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F349E5BF2B1F35DD00DC5FB0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F349E5EB2B1F81DF00DC5FB0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F349E5BB2B1F35DC00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +302,7 @@
 			files = (
 				F349E5BE2B1F35DC00DC5FB0 /* ContentView.swift in Sources */,
 				F349E5BC2B1F35DC00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIApp.swift in Sources */,
+				F349E5ED2B1F822100DC5FB0 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
