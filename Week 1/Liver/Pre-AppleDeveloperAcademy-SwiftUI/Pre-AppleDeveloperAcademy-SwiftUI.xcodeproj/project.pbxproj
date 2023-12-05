@@ -14,6 +14,18 @@
 		F349E5CD2B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5CC2B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUITests.swift */; };
 		F349E5D72B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5D62B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITests.swift */; };
 		F349E5D92B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5D82B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITestsLaunchTests.swift */; };
+		F349E5ED2B1F822100DC5FB0 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5EC2B1F822100DC5FB0 /* ButtonView.swift */; };
+		F349E5EF2B1F830800DC5FB0 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5EE2B1F830800DC5FB0 /* TextView.swift */; };
+		F349E5F12B1F86DB00DC5FB0 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5F02B1F86DB00DC5FB0 /* HStackView.swift */; };
+		F349E5F52B1F87D900DC5FB0 /* VStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5F42B1F87D900DC5FB0 /* VStackView.swift */; };
+		F349E5F92B1F889E00DC5FB0 /* ZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5F82B1F889E00DC5FB0 /* ZStackView.swift */; };
+		F349E5FB2B1F890E00DC5FB0 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5FA2B1F890E00DC5FB0 /* ImageView.swift */; };
+		F349E5FF2B1F8B7D00DC5FB0 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5FE2B1F8B7D00DC5FB0 /* CalculatorView.swift */; };
+		F349E6022B1F8BA800DC5FB0 /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E6012B1F8BA800DC5FB0 /* NumberPad.swift */; };
+		F349E6042B1F8D0100DC5FB0 /* FunctionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E6032B1F8D0100DC5FB0 /* FunctionButton.swift */; };
+		F349E6062B1F8D5200DC5FB0 /* OperationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E6052B1F8D5200DC5FB0 /* OperationButton.swift */; };
+		F349E6082B1F930400DC5FB0 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E6072B1F930400DC5FB0 /* ResultView.swift */; };
+		F349E60B2B1F94B800DC5FB0 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E60A2B1F94B800DC5FB0 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		F349E5D22B1F35DD00DC5FB0 /* Pre-AppleDeveloperAcademy-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pre-AppleDeveloperAcademy-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F349E5D62B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pre_AppleDeveloperAcademy_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		F349E5D82B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pre_AppleDeveloperAcademy_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F349E5EC2B1F822100DC5FB0 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		F349E5EE2B1F830800DC5FB0 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		F349E5F02B1F86DB00DC5FB0 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
+		F349E5F42B1F87D900DC5FB0 /* VStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackView.swift; sourceTree = "<group>"; };
+		F349E5F82B1F889E00DC5FB0 /* ZStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackView.swift; sourceTree = "<group>"; };
+		F349E5FA2B1F890E00DC5FB0 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		F349E5FE2B1F8B7D00DC5FB0 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		F349E6012B1F8BA800DC5FB0 /* NumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
+		F349E6032B1F8D0100DC5FB0 /* FunctionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionButton.swift; sourceTree = "<group>"; };
+		F349E6052B1F8D5200DC5FB0 /* OperationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationButton.swift; sourceTree = "<group>"; };
+		F349E6072B1F930400DC5FB0 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		F349E60A2B1F94B800DC5FB0 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +118,12 @@
 		F349E5BA2B1F35DC00DC5FB0 /* Pre-AppleDeveloperAcademy-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				F349E5BB2B1F35DC00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIApp.swift */,
-				F349E5BD2B1F35DC00DC5FB0 /* ContentView.swift */,
-				F349E5BF2B1F35DD00DC5FB0 /* Assets.xcassets */,
+				F349E6092B1F94AD00DC5FB0 /* Extension */,
+				F349E5EB2B1F81DF00DC5FB0 /* App */,
+				F349E5EA2B1F81B800DC5FB0 /* Resources */,
+				F349E5E92B1F818E00DC5FB0 /* View */,
+				F349E5E82B1F818800DC5FB0 /* ViewModel */,
+				F349E5E72B1F818500DC5FB0 /* Model */,
 				F349E5C12B1F35DD00DC5FB0 /* Preview Content */,
 			);
 			path = "Pre-AppleDeveloperAcademy-SwiftUI";
@@ -125,6 +152,71 @@
 				F349E5D82B1F35DD00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = "Pre-AppleDeveloperAcademy-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		F349E5E72B1F818500DC5FB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F349E5E82B1F818800DC5FB0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F349E5E92B1F818E00DC5FB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F349E6002B1F8B9300DC5FB0 /* Calculator */,
+				F349E5BD2B1F35DC00DC5FB0 /* ContentView.swift */,
+				F349E5EC2B1F822100DC5FB0 /* ButtonView.swift */,
+				F349E5EE2B1F830800DC5FB0 /* TextView.swift */,
+				F349E5F02B1F86DB00DC5FB0 /* HStackView.swift */,
+				F349E5F42B1F87D900DC5FB0 /* VStackView.swift */,
+				F349E5F82B1F889E00DC5FB0 /* ZStackView.swift */,
+				F349E5FA2B1F890E00DC5FB0 /* ImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F349E5EA2B1F81B800DC5FB0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F349E5BF2B1F35DD00DC5FB0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F349E5EB2B1F81DF00DC5FB0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F349E5BB2B1F35DC00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F349E6002B1F8B9300DC5FB0 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				F349E5FE2B1F8B7D00DC5FB0 /* CalculatorView.swift */,
+				F349E6012B1F8BA800DC5FB0 /* NumberPad.swift */,
+				F349E6052B1F8D5200DC5FB0 /* OperationButton.swift */,
+				F349E6032B1F8D0100DC5FB0 /* FunctionButton.swift */,
+				F349E6072B1F930400DC5FB0 /* ResultView.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		F349E6092B1F94AD00DC5FB0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F349E60A2B1F94B800DC5FB0 /* Color+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +349,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F349E5FB2B1F890E00DC5FB0 /* ImageView.swift in Sources */,
+				F349E60B2B1F94B800DC5FB0 /* Color+Extension.swift in Sources */,
+				F349E5F52B1F87D900DC5FB0 /* VStackView.swift in Sources */,
+				F349E6022B1F8BA800DC5FB0 /* NumberPad.swift in Sources */,
+				F349E5F92B1F889E00DC5FB0 /* ZStackView.swift in Sources */,
 				F349E5BE2B1F35DC00DC5FB0 /* ContentView.swift in Sources */,
+				F349E6042B1F8D0100DC5FB0 /* FunctionButton.swift in Sources */,
+				F349E5EF2B1F830800DC5FB0 /* TextView.swift in Sources */,
+				F349E6082B1F930400DC5FB0 /* ResultView.swift in Sources */,
 				F349E5BC2B1F35DC00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIApp.swift in Sources */,
+				F349E5F12B1F86DB00DC5FB0 /* HStackView.swift in Sources */,
+				F349E6062B1F8D5200DC5FB0 /* OperationButton.swift in Sources */,
+				F349E5FF2B1F8B7D00DC5FB0 /* CalculatorView.swift in Sources */,
+				F349E5ED2B1F822100DC5FB0 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +526,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pre-AppleDeveloperAcademy-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = G64N5NJ4Q6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +555,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Pre-AppleDeveloperAcademy-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = G64N5NJ4Q6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
