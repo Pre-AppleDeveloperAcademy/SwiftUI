@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F33F1A902B2077880005D14F /* UseForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F1A8F2B2077880005D14F /* UseForEachView.swift */; };
 		F349E5BC2B1F35DC00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5BB2B1F35DC00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIApp.swift */; };
 		F349E5BE2B1F35DC00DC5FB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5BD2B1F35DC00DC5FB0 /* ContentView.swift */; };
 		F349E5C02B1F35DD00DC5FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F349E5BF2B1F35DD00DC5FB0 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F33F1A8F2B2077880005D14F /* UseForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseForEachView.swift; sourceTree = "<group>"; };
 		F349E5B82B1F35DC00DC5FB0 /* Pre-AppleDeveloperAcademy-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pre-AppleDeveloperAcademy-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F349E5BB2B1F35DC00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pre_AppleDeveloperAcademy_SwiftUIApp.swift; sourceTree = "<group>"; };
 		F349E5BD2B1F35DC00DC5FB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				F349E5F42B1F87D900DC5FB0 /* VStackView.swift */,
 				F349E5F82B1F889E00DC5FB0 /* ZStackView.swift */,
 				F349E5FA2B1F890E00DC5FB0 /* ImageView.swift */,
+				F33F1A8F2B2077880005D14F /* UseForEachView.swift */,
 			);
 			path = ComponentExample;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				F349E5FB2B1F890E00DC5FB0 /* ImageView.swift in Sources */,
 				F349E60B2B1F94B800DC5FB0 /* Color+Extension.swift in Sources */,
 				F349E5F52B1F87D900DC5FB0 /* VStackView.swift in Sources */,
+				F33F1A902B2077880005D14F /* UseForEachView.swift in Sources */,
 				F349E6022B1F8BA800DC5FB0 /* NumberPad.swift in Sources */,
 				F349E5F92B1F889E00DC5FB0 /* ZStackView.swift in Sources */,
 				F349E5BE2B1F35DC00DC5FB0 /* ContentView.swift in Sources */,
