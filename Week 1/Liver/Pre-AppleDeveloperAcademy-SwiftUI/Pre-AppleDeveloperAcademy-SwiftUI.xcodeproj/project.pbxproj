@@ -10,6 +10,7 @@
 		F33F1A902B2077880005D14F /* UseForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F1A8F2B2077880005D14F /* UseForEachView.swift */; };
 		F33F1A922B207D820005D14F /* UseScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F1A912B207D820005D14F /* UseScrollView.swift */; };
 		F33F1A942B2081370005D14F /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F1A932B2081370005D14F /* GridView.swift */; };
+		F33F1A962B2086DB0005D14F /* UseTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F1A952B2086DB0005D14F /* UseTabView.swift */; };
 		F349E5BC2B1F35DC00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5BB2B1F35DC00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIApp.swift */; };
 		F349E5BE2B1F35DC00DC5FB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F349E5BD2B1F35DC00DC5FB0 /* ContentView.swift */; };
 		F349E5C02B1F35DD00DC5FB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F349E5BF2B1F35DD00DC5FB0 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 		F33F1A8F2B2077880005D14F /* UseForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseForEachView.swift; sourceTree = "<group>"; };
 		F33F1A912B207D820005D14F /* UseScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseScrollView.swift; sourceTree = "<group>"; };
 		F33F1A932B2081370005D14F /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		F33F1A952B2086DB0005D14F /* UseTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseTabView.swift; sourceTree = "<group>"; };
 		F349E5B82B1F35DC00DC5FB0 /* Pre-AppleDeveloperAcademy-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pre-AppleDeveloperAcademy-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F349E5BB2B1F35DC00DC5FB0 /* Pre_AppleDeveloperAcademy_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pre_AppleDeveloperAcademy_SwiftUIApp.swift; sourceTree = "<group>"; };
 		F349E5BD2B1F35DC00DC5FB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				F349E5F82B1F889E00DC5FB0 /* ZStackView.swift */,
 				F349E5FA2B1F890E00DC5FB0 /* ImageView.swift */,
 				F33F1A8F2B2077880005D14F /* UseForEachView.swift */,
+				F33F1A952B2086DB0005D14F /* UseTabView.swift */,
 				F33F1A912B207D820005D14F /* UseScrollView.swift */,
 				F33F1A932B2081370005D14F /* GridView.swift */,
 			);
@@ -382,6 +385,7 @@
 				F349E5F12B1F86DB00DC5FB0 /* HStackView.swift in Sources */,
 				F349E6062B1F8D5200DC5FB0 /* OperationButton.swift in Sources */,
 				F349E5FF2B1F8B7D00DC5FB0 /* CalculatorView.swift in Sources */,
+				F33F1A962B2086DB0005D14F /* UseTabView.swift in Sources */,
 				F349E5ED2B1F822100DC5FB0 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
