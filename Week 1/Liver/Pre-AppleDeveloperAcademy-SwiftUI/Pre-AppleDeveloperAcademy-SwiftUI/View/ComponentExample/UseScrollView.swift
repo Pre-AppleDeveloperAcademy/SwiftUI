@@ -12,10 +12,10 @@ struct UseScrollView: View {
     
     var body: some View {
         ScrollView(.vertical) {
-            ForEach(data, id: \.self) { num in
+            ForEach(data.indices, id: \.self) { index in
                 HStack {
                     Spacer()
-                    Text("\(num)")
+                    Text("\(data[index])")
                     Spacer()
                 }
             }

@@ -11,8 +11,8 @@ struct UseForEachView: View {
     let data: [Int] = Array(1...10).map { $0 * 2 }
     
     var body: some View {
-        ForEach(data, id: \.self) { num in
-            Text("\(num)")
+        ForEach(data.indices, id: \.self) { index in
+            Text("\(data[index])")
         }
     }
 }
