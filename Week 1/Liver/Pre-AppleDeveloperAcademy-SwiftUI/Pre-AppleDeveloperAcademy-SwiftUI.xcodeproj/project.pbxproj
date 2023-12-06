@@ -95,6 +95,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F33F1A8C2B206B540005D14F /* ComponentExample */ = {
+			isa = PBXGroup;
+			children = (
+				F349E5EC2B1F822100DC5FB0 /* ButtonView.swift */,
+				F349E5EE2B1F830800DC5FB0 /* TextView.swift */,
+				F349E5F02B1F86DB00DC5FB0 /* HStackView.swift */,
+				F349E5F42B1F87D900DC5FB0 /* VStackView.swift */,
+				F349E5F82B1F889E00DC5FB0 /* ZStackView.swift */,
+				F349E5FA2B1F890E00DC5FB0 /* ImageView.swift */,
+			);
+			path = ComponentExample;
+			sourceTree = "<group>";
+		};
 		F349E5AF2B1F35DC00DC5FB0 = {
 			isa = PBXGroup;
 			children = (
@@ -171,14 +184,9 @@
 		F349E5E92B1F818E00DC5FB0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F349E6002B1F8B9300DC5FB0 /* Calculator */,
 				F349E5BD2B1F35DC00DC5FB0 /* ContentView.swift */,
-				F349E5EC2B1F822100DC5FB0 /* ButtonView.swift */,
-				F349E5EE2B1F830800DC5FB0 /* TextView.swift */,
-				F349E5F02B1F86DB00DC5FB0 /* HStackView.swift */,
-				F349E5F42B1F87D900DC5FB0 /* VStackView.swift */,
-				F349E5F82B1F889E00DC5FB0 /* ZStackView.swift */,
-				F349E5FA2B1F890E00DC5FB0 /* ImageView.swift */,
+				F33F1A8C2B206B540005D14F /* ComponentExample */,
+				F349E6002B1F8B9300DC5FB0 /* Calculator */,
 			);
 			path = View;
 			sourceTree = "<group>";
