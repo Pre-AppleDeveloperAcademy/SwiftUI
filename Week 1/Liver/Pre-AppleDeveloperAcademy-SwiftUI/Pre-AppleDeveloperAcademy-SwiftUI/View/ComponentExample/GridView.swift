@@ -12,9 +12,9 @@ struct GridView: View {
     let data: [Int] = Array(1...100)
     
     let columns: [GridItem] = [
-        GridItem(.flexible(minimum: 100)),
-        GridItem(.flexible(minimum: 100)),
-        GridItem(.flexible(minimum: 100))
+        GridItem(.adaptive(minimum: 100)),
+        GridItem(.adaptive(minimum: 100)),
+        GridItem(.adaptive(minimum: 100))
     ]
     
     var body: some View {

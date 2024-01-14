@@ -13,23 +13,26 @@ struct UseTabView: View {
     
     var body: some View {
         TabView(selection: $tabIndex) {
-            FirstView()
+            FirstView(tabIndex: $tabIndex)
                 .tabItem {
                     Image(systemName: "circle.fill")
                         .tint(.red)
                         .foregroundStyle(.red)
+                    Text("red")
                 }
                 .tag(0)
             
             SecondView()
                 .tabItem {
                     Image(systemName: "circle.fill")
+                    Text("blue")
                 }
                 .tag(1)
             
             ThirdView()
                 .tabItem {
                     Image(systemName: "circle.fill")
+                    Text("green")
                 }
                 .tag(2)
         }
@@ -42,14 +45,26 @@ struct UseTabView: View {
 }
 
 struct FirstView: View {
+    @Binding var tabIndex: Int
     
     var body: some View {
         ZStack {
             Color.red
             
-            Text("First View")
-                .foregroundStyle(.white)
-                .font(.system(size: 50))
+            VStack {
+                Text("First View")
+                    .foregroundStyle(.white)
+                    .font(.system(size: 50))
+                Button {
+                    tabIndex += 1
+                } label: {
+                    Text("다음")
+                }
+                .padding()
+                .foregroundStyle(Color.white)
+                .background(.black)
+                
+            }
         }
     }
 }
